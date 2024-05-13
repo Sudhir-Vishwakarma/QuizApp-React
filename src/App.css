@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-quiz-container{
+    width: 100%;
+    height: 742px;
+    padding: 70px 0px;
+    color: #fff;
+    background-color: #3a3b3c;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.quiz-container{
+    width: 30%;
+    margin: 0px auto;
+    text-align: center;
+    padding: 7px 0px;
+    /* border: 1px solid blue; */
+    border-radius: 20px;
+    box-shadow: 0px 0px 6px 1px rgba(153,163,163,0.75);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.quiz-container h1{
+    width: 80%;
+    /* border: 1px solid lightcoral; */
+    /* text-align: center; */
+    margin: 40px auto 10px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 1px;
 }
-
-.App-link {
-  color: #61dafb;
+.quiz-container hr{
+    width: 80%;
+    margin: 0px auto 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.quiz-question{
+    width: 80%;
+    letter-spacing: 1px;
+    margin: 10px auto 20px;
+}
+.quiz-answers{
+    width: 80%;
+    margin: 20px auto;
+}
+.quiz-answers p{
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.quiz-container button{
+    margin: 30px 0px 10px;
+    padding: 5px 70px;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: lightblue;
+    transition: 1s ease;
+}
+.quiz-container button:hover{
+    outline: 1px solid blue;
+}
+.quiz-container .question-list{
+    width: 100%;
+    margin: 10px auto 50px;
+}
+.quiz-answers .correct{
+    background: #98FF98;
+    color: #3a3b3c;
+    border-color: lightgreen;
+}
+.quiz-answers .wrong{
+    background: #F98B88;
+    border-color: lightcoral;
 }

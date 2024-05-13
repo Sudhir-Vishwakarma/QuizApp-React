@@ -1,0 +1,42 @@
+export const data = [
+    {
+        question: "Which animal is known as the 'Ship of the Desert'?",
+        option1: "Tiger",
+        option2: "Lion",
+        option3: "Camel",
+        option4: "Rhino",
+        ans: 3,
+    },
+    {
+        question: "How many days are there in a week?",
+        option1: "4",
+        option2: "2",
+        option3: "9",
+        option4: "7",
+        ans: 4,
+    },
+    {
+        question: "How many letters are there in the English alphabet?",
+        option1: "26",
+        option2: "25",
+        option3: "22",
+        option4: "24",
+        ans: 1,
+    },
+    {
+        question: "How many days are there in a year?",
+        option1: "364",
+        option2: "365",
+        option3: "366",
+        option4: "367",
+        ans: 2,
+    },
+    {
+        question: "Name the National animal of India?",
+        option1: "Tiger",
+        option2: "Lion",
+        option3: "Camel",
+        option4: "Rhino",
+        ans: 1,
+    },
+]
